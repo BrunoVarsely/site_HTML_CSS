@@ -1,0 +1,98 @@
+body {
+    background: url("../img/foto4.png");
+    background-size: cover;
+}
+
+.container {
+    background-color: #f9f9f9;
+    height: 100px;
+    width: 80%;
+    margin: auto;
+}
+
+.banner {
+    height: 300px;
+    background-image: url(/img/foto5.jpg);
+    font-weight: bold;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    background-color: rgb(58, 22, 3);
+    height: 40;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding: 25px;
+    text-align: center;
+    color: #f9f9f9;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu a:link,
+a:visited {
+    color: #f9f9f9;
+    padding: 10px 25px;
+    transition: 0.5s;
+}
+
+.menu a:hover {
+    background-color: rgb(58, 22, 3);
+    transition: 0s;
+}
+
+.corpo {
+    height: 700px;
+    padding: 100px;
+}
+
+.corpo img {
+    width: 100%;
+    height: 100%;
+}
+
+.rodape {
+    background-color: rgb(58, 22, 3);
+    height: 150px;
+    font-size: 0.8rem;
+    padding: 35px;
+}
+
+.links {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+
+.links ul {
+    list-style: none;
+}
+
+.conteudo {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    text-align: justify;
+}
+
+.redes-sociais {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+
+.redes-sociais img {
+    width: 32px;
+    vertical-align: middle;
+    padding-left: 100px;
+}
